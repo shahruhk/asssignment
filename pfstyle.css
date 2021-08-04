@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+.nav_bar {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./pic/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  background: linear-gradient(to bottom, #ffda33, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 30px;
+}
+.nav_aline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+ul li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+ul li a {
+  font-weight: bold;
+  color: rgb(52, 163, 19);
+  font-size: 20px;
+  font-family: poppins;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul li a:hover {
+  color: rgb(183, 0, 255);
+}
+.bottonlin {
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 11px;
+  transition: transform 0.2s;
+}
+.bottonlin:hover {
+  transform: scale(1.1);
+}
+.bottontwi {
+  text-decoration: none;
+  padding: 5px 12px;
+  transition: transform 0.2s;
+}
+.twi {
+  height: 42px;
+  width: 42x;
+  object-fit: cover;
+}
+.bottontwi:hover {
+  transform: scale(1.1);
+}
